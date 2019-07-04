@@ -1,0 +1,76 @@
+*** Installation started 2019/07/02 16:18 ***
+Source: D:\downloads\MySQL-python-1.2.5.win32-py2.7.exe
+999 Root Key: HKEY_CURRENT_USER
+020 Reg DB Key: [Software\Microsoft\Windows\CurrentVersion\Uninstall]MySQL-python-py2.7
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\MySQL-python-py2.7]DisplayName=Python 2.7 MySQL-python-1.2.5
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\MySQL-python-py2.7]UninstallString="D:\developer\pyCharm\workspace\demo001\venv\RemoveMySQL-python.exe" -u "D:\developer\pyCharm\workspace\demo001\venv\MySQL-python-wininst.log"
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\_mysql.pyd
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\_mysql_exceptions.py
+100 Made Dir: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\connections.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\converters.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\cursors.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\release.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\times.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\__init__.py
+100 Made Dir: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\CLIENT.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\CR.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\ER.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\FIELD_TYPE.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\FLAG.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\REFRESH.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\__init__.py
+100 Made Dir: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\dependency_links.txt
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\PKG-INFO
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\SOURCES.txt
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\top_level.txt
+*** Installation started 2019/07/03 11:57 ***
+Source: D:\downloads\MySQL-python-1.2.5.win32-py2.7.exe
+999 Root Key: HKEY_CURRENT_USER
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\MySQL-python-py2.7]DisplayName=Python 2.7 MySQL-python-1.2.5
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\MySQL-python-py2.7]UninstallString="D:\developer\pyCharm\workspace\demo001\venv\RemoveMySQL-python.exe" -u "D:\developer\pyCharm\workspace\demo001\venv\MySQL-python-wininst.log"
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\_mysql.pyd
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\_mysql_exceptions.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\connections.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\converters.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\cursors.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\release.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\times.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\__init__.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\CLIENT.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\CR.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\ER.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\FIELD_TYPE.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\FLAG.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\REFRESH.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\__init__.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\dependency_links.txt
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\PKG-INFO
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\SOURCES.txt
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\top_level.txt
+*** Installation started 2019/07/03 11:57 ***
+Source: D:\downloads\MySQL-python-1.2.5.win32-py2.7.exe
+999 Root Key: HKEY_CURRENT_USER
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\MySQL-python-py2.7]DisplayName=Python 2.7 MySQL-python-1.2.5
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\MySQL-python-py2.7]UninstallString="D:\developer\pyCharm\workspace\demo001\venv\RemoveMySQL-python.exe" -u "D:\developer\pyCharm\workspace\demo001\venv\MySQL-python-wininst.log"
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\_mysql.pyd
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\_mysql_exceptions.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\connections.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\converters.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\cursors.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\release.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\times.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\__init__.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\CLIENT.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\CR.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\ER.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\FIELD_TYPE.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\FLAG.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\REFRESH.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQLdb\constants\__init__.py
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\dependency_links.txt
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\PKG-INFO
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\SOURCES.txt
+200 File Copy: D:\developer\pyCharm\workspace\demo001\venv\Lib\site-packages\MySQL_python-1.2.5-py2.7.egg-info\top_level.txt
