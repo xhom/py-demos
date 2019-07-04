@@ -1,6 +1,7 @@
 # coding=UTF-8
 
 # Python 有三种方法解析XML: SAX，DOM，以及 ElementTree
+# ElementTree: ElementTree就像一个轻量级的DOM，具有方便友好的API。代码可用性好，速度快，消耗内存少
 
 # 1.SAX
 # SAX是一种基于事件驱动的 API
@@ -17,8 +18,6 @@ class myXmlPraser(xml.sax.ContentHandler):
         self.rating = ""
         self.stars = ""
         self.description = ""
-
-        self.json = ""
     def startElement(self, tag, attrs): # Override
         #print '-----------------start-',tag
         self.currTag = tag
@@ -42,7 +41,6 @@ class myXmlPraser(xml.sax.ContentHandler):
         self.currTag = ''
         #print '-------------------end-', tag
     def characters(self, content): # Override
-        #print 'content-', content
         if self.currTag == "type":
             self.type = content
         elif self.currTag == "format":
@@ -66,4 +64,23 @@ if (__name__ == "__main__"):
 
     parser.parse("../modules/movies.xml")
 
-    print handler.json
+# 2.DOM - 适合转json用
+import xml.dom.minidom
+from xml.dom.minidom import parse
+
+DOMTree = xml.dom.minidom.parse("../modules/movies.xml")
+collection = DOMTree.documentElement
+if collection.hasAttribute('shelf'):
+    print '根节点: ' + str(collection.getAttribute('shelf'))
+
+movies = collection.getElementsByTagName('movie')
+
+for movie in movies:
+    print '=======Movie======='
+    if movie.hasAttribute('title'):
+        print '片名：' + str(movie.getAttribute('title'))
+    type = movie.getElementsByTagName('type')[0]
+    print '类型：' + str(type.childNodes[0].data)
+
+
+# 3.
