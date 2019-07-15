@@ -19,7 +19,8 @@ pattern = re.compile(r'hello') #注意hello前面的r的意思是“原生字符
 
 def print_result(text, method='match', p=pattern):
     if method=='search':
-        result = re.search(p, text)
+        #result = re.search(p, text) # 可写成 result = p.search(text)
+        result = p.search(text)
         print_rest(result, text)
     elif method=='split':
         result = re.split(p, text)
@@ -27,6 +28,10 @@ def print_result(text, method='match', p=pattern):
     elif method=='findall':
         result = re.findall(p, text)
         print_rest(result,text,True)
+    elif method=='finditer':
+        result = re.finditer(p, text)
+        for item in result:
+            print item.group()
     else:
         result = re.match(p, text)
         print_rest(result, text)
@@ -46,6 +51,9 @@ print_result("hello python，hello java")
 print '--------------------------------'
 print_result("hello python，hello java", 'search')
 print '--------------------------------'
-print_result('one12two333three5four09', 'split', r'\d+')
+pp = re.compile(r'\d+')
+print_result('one12two333three5four09', 'split', pp)
 print '--------------------------------'
-print_result('one12two333three5four09', 'findall', r'\d+')
+print_result('one12two333three5four09', 'findall', pp)
+print '--------------------------------'
+print_result('one12two333three5four09', 'finditer', pp) #返回结果是迭代器

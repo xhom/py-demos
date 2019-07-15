@@ -32,7 +32,7 @@ def request(url, headers={}, params={}, cookieSetting=None, method='post'):
             cookieSetting['savePath'] and cookie.save(ignore_discard=True, ignore_expires=True)
         else:
             resp = urllib2.urlopen(req)
-        return resp.read()
+        return resp.read().decode("utf-8")
     except urllib2.URLError,e:
         print "请求失败I：", e.reason
     except urllib2.HTTPError,e:
